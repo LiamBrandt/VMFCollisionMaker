@@ -1,4 +1,6 @@
-import pygame, sys, traceback, random, types
+import pygame, sys, traceback, random
+
+from vmf import *
 
 pygame.init()
 
@@ -7,7 +9,7 @@ SETTINGS = {}
 with open('config.txt','r') as inf:
     SETTINGS = eval(inf.read()) 
 
-pygame.display.set_icon(pygame.image.load("icon.png"))
+pygame.display.set_icon(pygame.image.load("content/icon.png"))
 screen = pygame.display.set_mode([SETTINGS["resolution_x"], SETTINGS["resolution_y"]])
 	
 pygame.display.set_caption("VMF Displacement Collision Maker")
@@ -21,7 +23,7 @@ INFO = {
 	"font_size": 34,
 	"text_pos": 0,
 }
-INFO["normal_font"] = pygame.font.Font("Helvetica.ttf", INFO["font_size"])
+INFO["normal_font"] = pygame.font.Font("content/Helvetica.ttf", INFO["font_size"])
 
 COLORS = {}
 

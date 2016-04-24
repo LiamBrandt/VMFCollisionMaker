@@ -1,3 +1,5 @@
+import types
+
 GLOBAL = {
 	"global_id": 0,
 }
