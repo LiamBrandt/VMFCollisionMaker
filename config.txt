@@ -1,0 +1,24 @@
+{
+  "debug": False,
+  
+  #screen resolution
+  "resolution_x": 800,
+  "resolution_y": 600,
+  
+  #color polygons by groups or by random
+  "random_colors": True,
+	
+  #default number of displacements
+  "size": 4,
+  #default power of each displacement
+  "power": 4,
+  #the distance between each vertice
+  "increment": 16,
+  "x_offset": -512,
+  "y_offset": -512,
+  "x_velocity": 0,
+  "y_velocity": 0,
+  
+  #model verts from .obj are multiplied by this value for drawing
+  "global_scale": 1,
+}
