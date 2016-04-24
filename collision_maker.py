@@ -12,7 +12,7 @@ with open('config.txt','r') as inf:
 pygame.display.set_icon(pygame.image.load("content/icon.png"))
 screen = pygame.display.set_mode([SETTINGS["resolution_x"], SETTINGS["resolution_y"]])
 	
-pygame.display.set_caption("VMF Displacement Collision Maker")
+pygame.display.set_caption("VMF Collision Maker")
 	
 INFO = {
 	"x_offset": 0,
