@@ -7,7 +7,11 @@ Note that the terrain will look flipped in the program, but you can imagine that
 
 Once you hit 'ENTER' on your keyboard, the displacements will be exported into a Hammer VMF file named 'output.vmf'.
 
-Usage:
+##Requirements:
+ * Python 2.7 https://www.python.org/downloads/
+ * Pygame http://www.pygame.org/download.shtml
+
+##Usage:
  * Use the arrow keys to move the offset of the displacements around.
  * Use 'A' and 'D' to change the number of displacements used.
  * Use 'W' and 'S' to change distance between each vertice in the displacement.
